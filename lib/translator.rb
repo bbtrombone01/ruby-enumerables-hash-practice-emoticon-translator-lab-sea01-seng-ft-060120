@@ -11,7 +11,9 @@ def load_library(file_path)
   end 
   last_hash
 end
+def
 
+<<<<<<< HEAD
 def get_english_meaning(file_path,target)
   file = load_library(file_path)
   file.each do |key,hash|
@@ -21,6 +23,8 @@ def get_english_meaning(file_path,target)
   end 
   return "Sorry, that emoticon was not found"
 end 
+=======
+>>>>>>> 83dce2bee20942275ed7b3c2c035d29b5ac1031d
 
 def get_japanese_emoticon(file_path,target)
   file = load_library(file_path)
@@ -28,6 +32,10 @@ def get_japanese_emoticon(file_path,target)
     if file[key][:english] == target
       return file[key][:japanese]
     end 
+<<<<<<< HEAD
   end
+=======
+  end 
+>>>>>>> 83dce2bee20942275ed7b3c2c035d29b5ac1031d
   return "Sorry, that emoticon was not found"
 end 

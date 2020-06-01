@@ -1,4 +1,4 @@
-.pry# Emoticon Translator
+
 
 ## Learning Goals
 
